@@ -235,6 +235,7 @@ class MainActivity2 : AppCompatActivity(), View.OnClickListener {
             winnerplayer = 2
         }
         else if (player1.size + player2.size == 9){
+            Toast.makeText(this, "ფრე", Toast.LENGTH_SHORT).show()
 
             Handler().postDelayed({
                 reset()

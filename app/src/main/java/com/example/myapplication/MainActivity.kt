@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         start.setOnClickListener {
 
             var playerOne = player1.text.toString()
-            var playerSecond = player1.text.toString()
+            var playerSecond = player2.text.toString()
 
             if(playerOne.isEmpty()){
                 Toast.makeText(this,"შეიყვანეთ პირველი მოთამაშის სახელი", Toast.LENGTH_SHORT).show()
